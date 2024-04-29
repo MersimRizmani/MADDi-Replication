@@ -50,7 +50,7 @@ def main():
         vcf = pd.concat(vcf, ignore_index=True)
         
         start = vcf_file.find("ADNI_ID.") + len("ADNI_ID.")
-        end = vcf_file.find("vcf")
+        end = vcf_file.find(".vcf")
         substring = vcf_file[start:end]
         relevent = genes[genes["chrom"] == substring]
         relevent = relevent.reset_index()
