@@ -9,7 +9,7 @@ def main():
     
     
     files = os.listdir("YOUR_PATH_TO_FILTERED_VCFS")
-    diag = pd.read_csv("YOUR_PATH_TO_DIAGNOSIS_TABLE")[["Subject", "GROUP"]].rename(columns={"Subject": "index", "GROUP":"Group"})
+    diag = pd.read_csv("YOUR_PATH_TO_DIAGNOSIS_TABLE")[["Subject", "Group"]].rename(columns={"Subject": "index"})
     
     vcfs = []
     
