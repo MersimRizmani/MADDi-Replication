@@ -46,6 +46,10 @@ In terms of data for computation, we have obtained access to the clinical datase
 
 For our project, we will be utilizing the existing code in an effort to replicate the original study. Specifically, we will attempt to replicate the MADDi framework that was developed in the original study. The original code can be found here: https://github.com/rsinghlab/MADDi/tree/main
 
+## Using the code
+
+To use our code, please look at the original repository (linked above), it is the same flow. To put it simply, to run the scripts use a command in the "python {script_name}". The jupytr workbooks can be run in google colab or like any other jupytr notebook.  
+
 ## Other References
 
 Naqvi E. Alzheimer’s Disease Statistics. 2017. https://alzheimersnewstoday.com/alzheimers-disease-statistics/. Accessed June 20, 2022.
